@@ -1,0 +1,92 @@
+
+
+body {
+    
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-image: url(./img/./3d-rendering-modern-loft-gym-fitness.jpg);
+
+
+  }
+  
+  .navbar-nav a {
+    color: rgb(0, 0, 0) !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+    color: #25D366; /* Cor vibrante para destacar o link */
+}
+
+  
+  
+  section {
+    margin-top: 60px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+  }
+  
+  footer a {
+    color: white;
+    margin: 0 10px;
+  }
+  
+  #whatsappButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+  
+  #whatsappButton:hover {
+    background-color: #128C7E;
+    transform: scale(1.1); /* Aumentar o botão no hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 500px; /* Defina a altura de forma fixa */
+}
+
+.carousel-item h2, .carousel-item p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header .navbar-brand {
+  font-family: 'Poppins', sans-serif; /* Usando Poppins */
+  font-size: 36px;  /* Tamanho maior */
+  font-weight: 700; /* Negrito */
+  color: #25D366;   /* Cor vibrante para dar destaque */
+  text-transform: uppercase; /* Letras maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre as letras */
+  transition: transform 0.3s ease, color 0.3s ease;
+
+}
+
+header .navbar-brand {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);  /* Sombra sutil para destacar */
+}
+
+header .navbar-brand:hover {
+  transform: scale(1.1);  /* Aumenta o tamanho ao passar o mouse */
+  color: #128C7E;  /* Muda a cor ao passar o mouse */
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+header {
+    animation: fadeIn 1s ease-out;
+}
