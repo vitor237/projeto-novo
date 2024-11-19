@@ -1,3 +1,12 @@
+# Projeto
+<div align=center>
+    <img src="./trabalho do curso/img/Macbook .png" width=300>
+    <img src="./trabalho do curso/img/iPhone-13.png" width=100>
+    
+</div>
+
+[Acesse aqui](https://vitor237.github.io/projeto-novo/)
+
 # Academia Fitness
 
 Este projeto é uma landing page para uma academia, utilizando HTML, CSS, Bootstrap e JavaScript. A página apresenta informações sobre a academia, seus serviços, um carrossel de imagens, vídeos, perguntas frequentes e um formulário de contato.
